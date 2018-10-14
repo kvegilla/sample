@@ -70,7 +70,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <router-link to="/dashboard" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt blue"></i>
+              <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
@@ -78,8 +78,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
                
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-cog green"></i>
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-cog "></i>
               <p>
                 Management
                 <i class="right fa fa-angle-left"></i>
@@ -96,7 +96,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <router-link to="/profile" class="nav-link">
-              <i class="nav-icon fas fa-user orange"></i>
+              <i class="nav-icon fas fa-user"></i>
               <p>
                 Profile
               </p>
@@ -107,7 +107,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a class="nav-link" href="{{ route('logout') }}"
                 onclick="event.preventDefault();
                               document.getElementById('logout-form').submit();">
-                <i class="nav-icon fas fa-power-off red"></i>
+                <i class="nav-icon fas fa-power-off"></i>
                 <p>
                   {{ __('Logout') }}
                 </p>
